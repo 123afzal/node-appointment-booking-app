@@ -1,0 +1,13 @@
+{
+  "test":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/TodoAppTest",
+    "Environment": "TEST"
+
+  },
+  "development":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/Appointments",
+    "Environment": "DEV"
+  }
+}
